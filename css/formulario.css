@@ -1,0 +1,39 @@
+div, h1, option{
+padding-bottom: 24px;
+font-family: 'Montserrat', sans-serif;
+}
+
+#msg{
+  width: 30%;
+  height: 150px;
+  resize: vertical;
+}
+
+#mail, #name{
+  width: 30%;
+}
+
+body{
+  background-image: url("../imagens/fundo.png");
+}
+
+button{
+font-family: 'Montserrat', sans-serif;
+background-color: grey;
+}
+
+h1{
+background-color: #333333;
+color: white;
+padding-top: 14px;
+text-align: center;
+font-size: 41px;
+}
+
+button:hover{
+  text-decoration: underline;
+}
+
+input:focus, textarea:focus{
+  background-color: #B4CDCD;
+}

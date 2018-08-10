@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/formulario.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Fomulário</title>
+  </head>
+  <body>
+    <h1>Dados Cadastrais</h1>
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <div>
+            <label for="name"><strong>Nome e sobrenome:</strong></label>
+            <input type="text" id="name" />
+        </div>
+        <div>
+            <label for="mail"><strong>E-mail:</strong></label>
+            <input type="email" id="mail" />
+        </div>
+
+        <div>
+        <label for="msg"><strong>Gênero:</strong></label><br>
+        <input type="radio" name="masculino" value="genero">Masculino<br>
+        <input type="radio" name="feminino" value="genero">Feminino<br>
+        <input type="radio" name="nao-responder" value="genero">prefiro não responder<br>
+        </div>
+
+          <div>
+          <label for="msg"><strong>Estado Civil:</strong></label><br>
+          <input type="checkbox" name="casado" value="estado-civil">Casado<br>
+          <input type="checkbox" name="solteiro" value="estado-civil">Solteiro<br>
+          <input type="checkbox" name="viúvo" value="estado-civil" checked>Viúvo<br>
+          <input type="checkbox" name="divorciado" value="estado-civil" checked>Divorciado<br>
+          </div>
+
+    <div class="pais">
+      <label for="pais"><strong>País:</strong></label><br>
+        <select name=”país”>
+          <option value=”Ar”>Argentina</option>
+          <option value=”Br”>Brasil</option>
+          <option value=”Co”>Colômbia</option>
+        </select>
+    </div>
+
+  <div>
+      <label for="assunto"><strong>Assunto:</strong></label><br>
+        <select name="assunto">
+            <option value="reclamacao">Reclamações</option>
+            <option value="duvidas">Dúvidas</option>
+            <option value="elogios">Elogios</option>
+        </select>
+  </div>
+
+      <div>
+        <label for="msg"><strong>Mensagem:</strong></label><br>
+        <textarea id="msg"></textarea>
+        </div>
+
+        <div class="button-enviar">
+            <button type="submit"><strong>Envie sua mensagem</strong></button>
+            <button type=”reset”><strong>Excluir</strong></button>
+        </div>
+
+
+    </form>
+  </body>
+</html>

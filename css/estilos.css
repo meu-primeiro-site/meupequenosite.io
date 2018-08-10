@@ -1,0 +1,186 @@
+header{
+  background-image: url("../imagens/nyc2.jpg");
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: -21px;
+  height: 293px;
+  padding: 1%;
+  margin-left: 0;
+  color: white;
+}
+
+nav.icones-menu{
+background-color: black;
+width: 100%;
+margin-left: -13px;
+height: 46px;
+margin-top: 19.3%;
+}
+
+.icones-menu ul{
+  display: flex;
+  margin-left: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 23%;
+}
+
+.icones-menu ul li{
+    padding-right: 100%;
+    text-decoration: none;
+}
+
+.icone-portfolio, .portfolio, .email, .hobbies, .linkedin, .github{
+  width: 25px;
+  height: 25px;
+  margin: 7px;
+  display: flex;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+div {
+  padding-right: 75px;
+  width: 24%;
+  padding-right: 4%;
+  padding-left: 5%;
+}
+
+body{
+margin-left: 0;
+background-color: #CFCFCF;
+width: 100%;
+  background-image: url("../imagens/fundo.png");
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+article {
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+}
+
+article .informacoes-pessoais{
+      text-align: center;
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 12px;
+  padding-right: 9%;
+
+}
+
+.footer{
+  position: fixed;
+}
+
+.topo{
+      font-family: 'Raleway', sans-serif;
+      color: black;
+}
+
+.formacao-academica{
+width: 50%;
+float: left;
+height: 15%;
+}
+
+.experiencias-profissionais{
+  float: right;
+  width: 30%;
+  height: 15%;
+}
+
+.idiomas{
+  float: right;
+  width: 24%;
+  height: 15%;
+}
+
+.referencias-profissionais{
+  float: right;
+  width:30%;
+  height: 15%;
+}
+
+.foto{
+        width: 313px;
+        padding-left: 3px;
+        border-radius: 100%;
+}
+
+.formacao-academica, .experiencias-profissionais, .idiomas, .referencias-profissionais{
+width:  30%;
+}
+
+.formacao-academica, .idiomas{
+  width: 24%;
+}
+
+.experiencias-profissionais, .referencias-profissionais{
+  float: left;
+  clear: right;
+  width: 24%;
+}
+
+.habilidades-e-competencias{
+  width: 96%;
+  margin-left: -49px;
+      margin-top: 2%;
+}
+
+ul {
+  list-style-type: none;
+display: inline-flex;
+margin-left: 33%;
+
+}
+
+span.icone-portfolio, span.email, span.github, span.linkedin, span.hobbies{
+    display: inline-flex;
+        padding-right: 10%;
+        list-style-type: none;
+            margin-top: 19.5%;
+}
+
+
+footer{
+display: inline-flex;
+margin: 0;
+margin-top: 8%;
+background-color: black;
+width: 100%;
+    height: 59px;
+
+}
+
+span{
+
+margin-top: 16px;
+display: inline-flex;
+
+}
+
+span.icone-portfolio-1{
+  margin-left: 44%;
+  display
+}
+
+a.linkedin-footer{
+    margin-left: 37%;
+}
